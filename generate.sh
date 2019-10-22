@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCKERFILE_TEMPLATE="Dockerfile.template"
-POSTGRES_VERSIONS="9.5 9.6 10 11"
+POSTGRES_VERSIONS="9.5 9.6 10 11 12"
 POSTGRES_LOCALES="fr_FR.UTF-8"
 
 for version in $POSTGRES_VERSIONS; do
